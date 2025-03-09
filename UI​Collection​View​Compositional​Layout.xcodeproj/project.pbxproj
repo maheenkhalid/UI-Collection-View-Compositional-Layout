@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CA3C28C02D7E3497008977A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3C28A12D7E3495008977A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3C28A82D7E3495008977A2;
+			remoteInfo = "UI​Collection​View​Compositional​Layout";
+		};
+		CA3C28CA2D7E3497008977A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3C28A12D7E3495008977A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3C28A82D7E3495008977A2;
+			remoteInfo = "UI​Collection​View​Compositional​Layout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3C28A92D7E3495008977A2 /* UI​Collection​View​Compositional​Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI​Collection​View​Compositional​Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3C28BF2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI​Collection​View​Compositional​LayoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3C28C92D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UI​Collection​View​Compositional​LayoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CA3C28D12D7E3497008977A2 /* Exceptions for "UI​Collection​View​Compositional​Layout" folder in "UI​Collection​View​Compositional​Layout" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = CA3C28A82D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CA3C28AB2D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				CA3C28D12D7E3497008977A2 /* Exceptions for "UI​Collection​View​Compositional​Layout" folder in "UI​Collection​View​Compositional​Layout" target */,
+			);
+			path = "UI​Collection​View​Compositional​Layout";
+			sourceTree = "<group>";
+		};
+		CA3C28C22D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UI​Collection​View​Compositional​LayoutTests";
+			sourceTree = "<group>";
+		};
+		CA3C28CC2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UI​Collection​View​Compositional​LayoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3C28A62D7E3495008977A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3C28BC2D7E3497008977A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3C28C62D7E3497008977A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3C28A02D7E3495008977A2 = {
+			isa = PBXGroup;
+			children = (
+				CA3C28AB2D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */,
+				CA3C28C22D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests */,
+				CA3C28CC2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests */,
+				CA3C28AA2D7E3495008977A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3C28AA2D7E3495008977A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3C28A92D7E3495008977A2 /* UI​Collection​View​Compositional​Layout.app */,
+				CA3C28BF2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests.xctest */,
+				CA3C28C92D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3C28A82D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3C28D22D7E3497008977A2 /* Build configuration list for PBXNativeTarget "UI​Collection​View​Compositional​Layout" */;
+			buildPhases = (
+				CA3C28A52D7E3495008977A2 /* Sources */,
+				CA3C28A62D7E3495008977A2 /* Frameworks */,
+				CA3C28A72D7E3495008977A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CA3C28AB2D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */,
+			);
+			name = "UI​Collection​View​Compositional​Layout";
+			packageProductDependencies = (
+			);
+			productName = "UI​Collection​View​Compositional​Layout";
+			productReference = CA3C28A92D7E3495008977A2 /* UI​Collection​View​Compositional​Layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3C28BE2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3C28D72D7E3497008977A2 /* Build configuration list for PBXNativeTarget "UI​Collection​View​Compositional​LayoutTests" */;
+			buildPhases = (
+				CA3C28BB2D7E3497008977A2 /* Sources */,
+				CA3C28BC2D7E3497008977A2 /* Frameworks */,
+				CA3C28BD2D7E3497008977A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3C28C12D7E3497008977A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA3C28C22D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests */,
+			);
+			name = "UI​Collection​View​Compositional​LayoutTests";
+			packageProductDependencies = (
+			);
+			productName = "UI​Collection​View​Compositional​LayoutTests";
+			productReference = CA3C28BF2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3C28C82D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3C28DA2D7E3497008977A2 /* Build configuration list for PBXNativeTarget "UI​Collection​View​Compositional​LayoutUITests" */;
+			buildPhases = (
+				CA3C28C52D7E3497008977A2 /* Sources */,
+				CA3C28C62D7E3497008977A2 /* Frameworks */,
+				CA3C28C72D7E3497008977A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3C28CB2D7E3497008977A2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CA3C28CC2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests */,
+			);
+			name = "UI​Collection​View​Compositional​LayoutUITests";
+			packageProductDependencies = (
+			);
+			productName = "UI​Collection​View​Compositional​LayoutUITests";
+			productReference = CA3C28C92D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3C28A12D7E3495008977A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					CA3C28A82D7E3495008977A2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					CA3C28BE2D7E3497008977A2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CA3C28A82D7E3495008977A2;
+					};
+					CA3C28C82D7E3497008977A2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = CA3C28A82D7E3495008977A2;
+					};
+				};
+			};
+			buildConfigurationList = CA3C28A42D7E3495008977A2 /* Build configuration list for PBXProject "UI​Collection​View​Compositional​Layout" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3C28A02D7E3495008977A2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CA3C28AA2D7E3495008977A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3C28A82D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */,
+				CA3C28BE2D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutTests */,
+				CA3C28C82D7E3497008977A2 /* UI​Collection​View​Compositional​LayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3C28A72D7E3495008977A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3C28BD2D7E3497008977A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3C28C72D7E3497008977A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3C28A52D7E3495008977A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3C28BB2D7E3497008977A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3C28C52D7E3497008977A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3C28C12D7E3497008977A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3C28A82D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */;
+			targetProxy = CA3C28C02D7E3497008977A2 /* PBXContainerItemProxy */;
+		};
+		CA3C28CB2D7E3497008977A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3C28A82D7E3495008977A2 /* UI​Collection​View​Compositional​Layout */;
+			targetProxy = CA3C28CA2D7E3497008977A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA3C28D32D7E3497008977A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UI​Collection​View​Compositional​Layout/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maheen.UI-Collection-View-Compositional-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3C28D42D7E3497008977A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UI​Collection​View​Compositional​Layout/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maheen.UI-Collection-View-Compositional-Layout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA3C28D52D7E3497008977A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA3C28D62D7E3497008977A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3C28D82D7E3497008977A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maheen.UI-Collection-View-Compositional-LayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI​Collection​View​Compositional​Layout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UI​Collection​View​Compositional​Layout";
+			};
+			name = Debug;
+		};
+		CA3C28D92D7E3497008977A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maheen.UI-Collection-View-Compositional-LayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UI​Collection​View​Compositional​Layout.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UI​Collection​View​Compositional​Layout";
+			};
+			name = Release;
+		};
+		CA3C28DB2D7E3497008977A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maheen.UI-Collection-View-Compositional-LayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UI​Collection​View​Compositional​Layout";
+			};
+			name = Debug;
+		};
+		CA3C28DC2D7E3497008977A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.maheen.UI-Collection-View-Compositional-LayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "UI​Collection​View​Compositional​Layout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3C28A42D7E3495008977A2 /* Build configuration list for PBXProject "UI​Collection​View​Compositional​Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3C28D52D7E3497008977A2 /* Debug */,
+				CA3C28D62D7E3497008977A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3C28D22D7E3497008977A2 /* Build configuration list for PBXNativeTarget "UI​Collection​View​Compositional​Layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3C28D32D7E3497008977A2 /* Debug */,
+				CA3C28D42D7E3497008977A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3C28D72D7E3497008977A2 /* Build configuration list for PBXNativeTarget "UI​Collection​View​Compositional​LayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3C28D82D7E3497008977A2 /* Debug */,
+				CA3C28D92D7E3497008977A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3C28DA2D7E3497008977A2 /* Build configuration list for PBXNativeTarget "UI​Collection​View​Compositional​LayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3C28DB2D7E3497008977A2 /* Debug */,
+				CA3C28DC2D7E3497008977A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3C28A12D7E3495008977A2 /* Project object */;
+}
