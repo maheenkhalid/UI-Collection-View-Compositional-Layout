@@ -1,31 +1,72 @@
-//
-//  ViewController.swift
-//  UI​Collection​View​Compositional​Layout
-//
-//  Created by Maheen Khalid on 2025-03-09.
-//
-
 import UIKit
 
 class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        setupViews()
+    enum Section: Int {
+        case page
+        case thumbnail
     }
 
-    private func setupViews() {
+    struct Item: Hashable {
+        let id = UUID()
+        let title: String
+        let subtext: String
+        let section: Section
+
+        static let data: [Item] = [
+            .init(title: "Top 10 Games", subtext: "Explore top 10 games downloaded this month", section: .page),
+            .init(title: "Top 10 Utility Apps", subtext: "Explore top 10 Utility apps downloaded this month", section: .page),
+            .init(title: "Top 10 Free Apps", subtext: "Explore top 10 Free apss downloaded this month", section: .page),
+            .init(title: "Good Food: Recipe Finder", subtext: "Formerly BBC Good Food", section: .thumbnail),
+            .init(title: "Reddit", subtext: "Real Answers, from Real People", section: .thumbnail),
+            .init(title: "Citymapper", subtext: "Maps & Routes for 400+ Cities", section: .thumbnail),
+            .init(title: "Doulingo", subtext: "Learn Languages, Math and Music", section: .thumbnail),
+        ]
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
+    
+    var dataSource: UICollectionViewDiffableDataSource<Section, Item>!
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.title = "Collection View example"
+        
         collectionView.collectionViewLayout = createCollectionViewLayout()
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        
+        setupDataSource()
+    }
+
+    private func setupDataSource() {
+        dataSource = UICollectionViewDiffableDataSource(
+            collectionView: collectionView,
+            cellProvider: { collectionView, indexPath, item in
+                let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+                cell.contentView.backgroundColor = indexPath.section == 0 ? .yellow : .systemBackground
+                print("IndexPath: \(indexPath.section).\(indexPath.item)")
+                return cell
+            })
+
+        var snapshot = NSDiffableDataSourceSnapshot<Section, Item>()
+        snapshot.appendSections(Array(Set(Item.data.map { $0.section })))
+        snapshot.appendItems(Item.data.filter { $0.section == .page }, toSection: .page)
+        snapshot.appendItems(Item.data.filter { $0.section == .thumbnail }, toSection: .thumbnail)
+        print("Sections: \(snapshot.numberOfSections)")
+        dataSource.apply(snapshot, animatingDifferences: true)
     }
 
     private func createCollectionViewLayout() -> UICollectionViewCompositionalLayout {
         return UICollectionViewCompositionalLayout { sectionIndex, environment in
-            switch sectionIndex    {
-            case 0:
+            guard let sectionKind = Section(rawValue: sectionIndex) else { return nil }
+            
+            switch sectionKind {
+            case .page:
                 return self.bannerSection()
-            default:
+            case .thumbnail:
                 return self.tileSection()
             }
         }
@@ -76,21 +117,3 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         return section
     }
 }
-
-extension ViewController {
-    override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return section == 0 ? 4 : 5
-    }
-
-    override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        cell.backgroundColor = indexPath.section == 0 ? .blue : .red
-        cell.layer.cornerRadius = 8
-        return cell
-    }
-
-    override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 2
-    }
-}
-
